@@ -1,5 +1,5 @@
 <h2>TalentBuddy Web Dev Course Assessement</h2>
-<p>Web Dev Course Assessment Tasks - Beginner program</p>
+<p>Web Dev Mentor Assessment Tasks - Beginner program</p>
 <h3>Dependencies</h3>
 <ul>
   <li>NodeJS</li>
