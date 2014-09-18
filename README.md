@@ -7,6 +7,6 @@
   <li>Express.js</li>
 </ul>
 
-<p>&copy; 2014 Patrick W. Morgan aka <a href='http://ptpcg.com'>Pat the PC Guy</a></p> 
+<p>&copy; 2014 <a href='http://ptpcg.com'>Patrick W. Morgan</a></p> 
 
  
