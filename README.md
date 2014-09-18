@@ -7,6 +7,12 @@
   <li>Express.js</li>
 </ul>
 
+<h3>Instructions</h3>
+<p>Run with node.js view at http://localhost:2013/ 
+  <br/>
+  Port can be re-configured via line 18 of node_srv.js
+</p>
+
 <p>&copy; 2014 <a href='http://ptpcg.com'>Patrick W. Morgan</a></p> 
 
  
