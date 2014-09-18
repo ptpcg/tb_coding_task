@@ -48,7 +48,7 @@
   	var view = getView("login",this); //Get view for login
   }
   
-  //Method for login
+  //Method for register
   function reg(){
       //Do registration stuff
       var view = getView("register",this); //Get view for login
