@@ -6,6 +6,7 @@ body,html{
     margin:0;
     padding:0;
     overflow:hidden;
+    font-family: sans-serif;
 }
 .container{
     width:auto;
@@ -15,15 +16,12 @@ body,html{
 /*Header Stuff*/
 .header{
     width:100%;
-    /*margin:0;*/
     background:#fff;
     height: auto;
     padding: .5em;
     float:left;
     position:absolute;
     top:0;
-    /*-webkit-box-shadow:2px 2px 2px #222;*/
-    /*box-shadow:2px 2px 2px #222;*/
 }
 .logo{
     padding:0;
@@ -31,8 +29,6 @@ body,html{
     width:185px;
     float:left;
     margin-top:.5em;
-}
-.logo img{
 }
 .login_reg{
     float:right;
@@ -46,8 +42,11 @@ body,html{
     margin-left: 1em;
     text-decoration:none;
 }
+.login_reg>a:hover{
+	color:#3498DB;
+}
 .login_reg>a:last-child{
-    background:orange;
+    background:#f1c40f;
     padding:.5em;
     color:#fff;
 }
@@ -56,8 +55,8 @@ body,html{
 /*Content*/
 /*********/
 .content{
-    background:#e3e3e3;
-    border-bottom: 1px solid gray;
+    background:#ecf0f1;
+    border-bottom: 1px solid #bdc3c7;
 }
 .content>a{
     text-decoration:none;
@@ -68,7 +67,7 @@ body,html{
     margin:0;
     margin-top: 5em;
     height: 280px;
-    background:url(/ui/img/bg.png);
+    background:url(/img/bg.png);
     background-size:cover;
 }
 .banner_txt{
@@ -79,25 +78,32 @@ body,html{
     width:100%;
     padding-top: 3em;
     text-align:center;
+    text-shadow:1px 1px 1px #222;
 }
 
 /*Form*/
 .form{
     width:30%;
     margin-top:2em;
+	margin-bottom: 2em;
     margin-left:35%;
     text-align:center;
+}
+.form_txt>a{
+	color:#3498db;
+	text-decoration:none;
 }
 input{
     width:90%;
     margin-left: 5%;
     padding: .25em;
-    font-size: 1.25em;
+    padding-left: .75em;
+    font-size: 1em;
 }
 button{
-    font-size: 1.25em;
-    padding: .5em;
-    background: lightblue;
+    font-size: 1em;
+    padding:.5em 1em .5em 1em;
+    background: #3498db;
     color: #fff;
     border: none;
     margin: 2em;
@@ -110,7 +116,7 @@ button{
     padding:.5em;
     float:left;
     position:absolute;
-    bottom:0;
+    bottom:.5em;
     text-align:center;
     color: gray;
 }
