@@ -37,7 +37,7 @@
   	router.dispatch(req, res, function (err) {
       if (err) {
         res.writeHead(404);
-        res.end("Le Fail - Not Found");
+        res.end("Wo ist das? - Not Found");
       }
     });
   };
